@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "target": "ES2022",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "module": "Preserve",
+    "moduleResolution": "bundler",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "incremental": true,
+    "disableSourceOfProjectReferenceRedirect": true,
+    "tsBuildInfoFile": "${configDir}/.cache/tsbuildinfo.json",
+    "strictNullChecks": true,
+    "erasableSyntaxOnly": true
+  },
+  "include": ["src"],
+  "exclude": ["dist", "build", "node_modules"]
+}
