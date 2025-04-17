@@ -1,6 +1,6 @@
 {
   "name": "@bluecadet/embla-carousel-a11y",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A11y Plugin for Embla Carousel",
   "sideEffects": false,
   "license": "MIT",
